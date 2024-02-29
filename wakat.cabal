@@ -28,9 +28,11 @@ library
       AppMain
       Converter
       Definition
+      File
       Initialize
       Input
       Lib
+      Load
       Output
   other-modules:
       Paths_wakat
@@ -42,6 +44,7 @@ library
   build-depends:
       ansi-terminal
     , base >=4.7 && <5
+    , bytestring
     , hidden-char
     , linear
     , mtl
@@ -62,6 +65,7 @@ executable wakat-exe
   build-depends:
       ansi-terminal
     , base >=4.7 && <5
+    , bytestring
     , hidden-char
     , linear
     , mtl
@@ -84,6 +88,7 @@ test-suite wakat-test
   build-depends:
       ansi-terminal
     , base >=4.7 && <5
+    , bytestring
     , hidden-char
     , linear
     , mtl

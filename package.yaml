@@ -28,6 +28,7 @@ dependencies:
 - timers
 - suspend
 - mtl
+- bytestring
 
 ghc-options:
 - -Wall
