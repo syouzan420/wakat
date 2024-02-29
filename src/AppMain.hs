@@ -1,4 +1,4 @@
 module AppMain(appMain) where
 
 appMain :: IO ()
-appMain = putStrLn "Hello"
+appMain = putStrLn "Hello world"
