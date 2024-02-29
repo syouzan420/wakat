@@ -42,6 +42,9 @@ packages:
 #
 extra-deps:
  - hidden-char-0.1.0.2@sha256:4aff0d02f90959e84504e420d96da6e1189a456b5c5379474a598d48327cd838,2357
+ - suspend-0.2.0.0@sha256:0d98526558b773c3ff792664bc45d7a083a32eedb6206d4101a7570869c75a28,1115
+ - timers-0.2.0.4@sha256:081e81f1f7384795acc4f887cf3c07cc6e7a9c1bf6e65f0f94507f3d2e0585c2,1175
+
 
 # Override default flag values for local packages and extra-deps
 # flags: {}

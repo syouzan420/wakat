@@ -25,6 +25,9 @@ dependencies:
 - hidden-char
 - linear
 - text
+- timers
+- suspend
+- mtl
 
 ghc-options:
 - -Wall

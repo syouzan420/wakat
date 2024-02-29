@@ -30,3 +30,4 @@ data T = T{shape :: Shape,
           } deriving (Eq,Show)
 data Y = Y Verb [Arg] deriving (Eq,Show)
 
+data Game = Game{txd :: [TextData]}
